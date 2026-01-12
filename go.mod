@@ -1,3 +1,14 @@
-module learnGo
+module github.com/dexterhere04/Learn_go
 
 go 1.25.5
+
+require (
+	github.com/go-chi/chi v1.5.5
+	github.com/siruspen/logrus v1.7.1
+)
+
+require (
+	github.com/sirupsen/logrus v1.9.3 // indirect
+	github.com/stretchr/testify v1.7.0 // indirect
+	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
+)
